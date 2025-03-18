@@ -1,0 +1,114 @@
+.header-button{
+    color: white;
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+}
+
+.header-access{
+    display: flex;
+    gap: 50%;
+}
+
+.menu{
+    display: flex;
+    gap: 25%;
+}
+
+#header-image{
+    width: 1500px;
+    height: 600px;
+}
+
+.about{
+    display: flex;
+    gap: 10%;
+  padding: 10% 20%;
+}
+
+.about-image{
+    width: 90%;
+    height: 70%;
+}
+.about-span{
+    font-size: 30px;
+}
+
+.about-span-image{
+    width: 100%;
+    height: 90%;
+}
+.about-year{
+    font-size: 50px;
+}
+
+.header-email{
+    display: flex;
+    gap: 50px;
+}
+
+.logoipsum-services{
+    display: flex;
+    gap: 10%;
+}
+
+#services{
+    width: 130px;
+    height: 50px;
+}
+#service{
+    width: 130px;
+    
+}
+#last-service{
+    width: 130px;
+}
+.what-we-do{
+    padding: 10% 20%;
+}
+.our-services{
+    display: flex;
+    gap: 20px;
+    width: 1200px;
+}
+.packing{
+    width: 90px;
+}
+.Storage{
+    width: 90px;
+}
+.Transport{
+    width: 90px;
+}
+.Insurance{
+    width: 90px;
+}
+.last-services{
+    display: flex;
+    
+}
+.chose{
+    padding: 10% 20%;
+}
+.chose-Riaad{
+    display: flex;
+    gap: 10%;
+}
+.chose-image{
+    width: 400px;
+    height: 600px;
+}
+#chose-detail{
+    text-align: center;
+}
+.booking-image{
+    width: 1500px;
+    height: 600px;
+}
+.book-now{
+    display: flex;
+}
+.book-quote{
+    border: 1px;
+    background-color: orange;
+}
