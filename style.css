@@ -1,3 +1,6 @@
+.header{
+    padding: 0 0 10%;
+}
 .header-button{
     color: white;
     background-color: #000;
@@ -19,7 +22,7 @@ a{
 }
 
 #header-image{
-    width: 1500px;
+    width: 100%;
     height: 600px;
 }
 
@@ -91,7 +94,7 @@ a{
     
 }
 .chose{
-    padding: 10% 20%;
+    padding: 10% 25%;
 }
 .chose-Riaad{
     display: flex;
@@ -104,23 +107,29 @@ a{
 #chose-detail{
     text-align: center;
 }
-.booking-image{
-    width: 1500px;
+.video{
+    padding: 10% 0;
+}
+.booking-video{
+    width: 100%;
     height: 600px;
 }
 .book-now{
     display: flex;
-    width: 1500px;
+    /* width: 1500px; */
+    height: 400px;
 }
 .book-quote{
     border: 1px;
     background-color: orange;
     color: white;
+    width: 50%;
 }
 .book-form{
     border: 1px;
-    background-color: blue;
+    background-color: rgba(20, 20, 255, 0.959);
     color: white;
+    width: 50%;
 }
 .book-button{
     color: white;
@@ -128,10 +137,10 @@ a{
 }
 .booking-form{
     display: flex;
-    gap: 10%;
+    gap: 15%;
     padding: 50px;
     /* width: 50px; */
-    height: 100px;
+    /* height: 100px; */
 }
 .form-left{
     width: 150px;
@@ -152,6 +161,9 @@ a{
     width: 900px;
     gap: 20%;
 }
+.news{
+    padding: 10% 0;
+}
 .news-link{
     text-align: center;
 }
@@ -162,13 +174,17 @@ a{
 .news-subscribe{
     display: flex;
     gap: 30%;
-    padding: 0 20%;
+    padding: 0 35%;
+    align-items: baseline;
 }
 .news-button{
     width: 160px;
     height: 55px;
     color: white;
     background-color: orange;
+}
+.our-blog{
+    padding: 10% 0;
 }
 .blog{
     text-align: center;
@@ -178,25 +194,72 @@ a{
     font-size: 50px;
 }
 .blog-images{
-    width: 1500px;
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 .blog-images-first{
-    width: 450px;
+    width: 600px;
 }
 .blog-images-second{
-    width: 450px;
+    width: 600px;
 }
 .blog-images-third{
-    width: 450px;
+    width: 600px;
+} 
+.footer-top{
+    display: flex;
+    gap: 40%;
+    border: 1px orange;
+    background-color: orange;
+    height: 200px;
 }
 .footer-note{
     color: white;
+    padding: 4% 0 0 15%;
+}
+.footer_button{
+    padding: 4% 15% 0 0; 
 }
 .footer-button{
     width: 160px;
     height: 55px;
     color: white;
     background-color: #000;
+}
+.footer{
+    border: 1px;
+    background-color: #242323;
+    height: 360px;
+    color: white;
+}
+.footer-conclusion{
+    display: flex;
+    gap: 15%;
+    padding: 0 10% ;
+    /* border: 1px;
+    background-color: #242323;
+    height: 500px;
+    color: white; */
+}
+.footer-icons{
+    display: flex;
+    gap: 50px;
+    padding: 5%;
+}
+.fa-twitter{
+    color: orange;
+}
+.line-icon{
+    display: flex;
+}
+hr{
+    height: 0px;
+    width: 70%;
+}
+.fa-facebook{
+    padding: 0 400px 0 0;
+    color: orange;
+}
+.footer-copyright{
+    text-align: center;
 }
