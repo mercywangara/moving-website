@@ -14,6 +14,9 @@
     display: flex;
     gap: 25%;
 }
+a{
+    color: orange;
+}
 
 #header-image{
     width: 1500px;
@@ -31,7 +34,7 @@
     height: 70%;
 }
 .about-span{
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .about-span-image{
@@ -107,8 +110,93 @@
 }
 .book-now{
     display: flex;
+    width: 1500px;
 }
 .book-quote{
     border: 1px;
     background-color: orange;
+    color: white;
+}
+.book-form{
+    border: 1px;
+    background-color: blue;
+    color: white;
+}
+.book-button{
+    color: white;
+    background-color: orange;
+}
+.booking-form{
+    display: flex;
+    gap: 10%;
+    padding: 50px;
+    /* width: 50px; */
+    height: 100px;
+}
+.form-left{
+    width: 150px;
+    height: 20px;
+}
+.testimonials{
+    padding: 10% 25%;
+}
+.testimonials-link{
+    text-align: center;
+}
+.testimonials-statement{
+    text-align: center;
+    font-size: 50px;
+}
+.testimonials-declaration{
+    display: flex;
+    width: 900px;
+    gap: 20%;
+}
+.news-link{
+    text-align: center;
+}
+.news-join{
+    text-align: center;
+    font-size: 50px;
+}
+.news-subscribe{
+    display: flex;
+    gap: 30%;
+    padding: 0 20%;
+}
+.news-button{
+    width: 160px;
+    height: 55px;
+    color: white;
+    background-color: orange;
+}
+.blog{
+    text-align: center;
+}
+.blog-articles{
+    text-align: center;
+    font-size: 50px;
+}
+.blog-images{
+    width: 1500px;
+    display: flex;
+    gap: 40px;
+}
+.blog-images-first{
+    width: 450px;
+}
+.blog-images-second{
+    width: 450px;
+}
+.blog-images-third{
+    width: 450px;
+}
+.footer-note{
+    color: white;
+}
+.footer-button{
+    width: 160px;
+    height: 55px;
+    color: white;
+    background-color: #000;
 }
