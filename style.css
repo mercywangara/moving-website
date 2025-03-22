@@ -24,8 +24,19 @@ a{
 #header-image{
     width: 100%;
     height: 600px;
+    position: relative;
 }
-
+.header-image-comments{
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    left: 35%;
+    font-size: 70px;
+}   
+.header-image-button{
+    position: absolute;
+    
+}
 .about{
     display: flex;
     gap: 10%;
