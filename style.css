@@ -26,6 +26,13 @@ a{
     height: 600px;
     position: relative;
 }
+.header_image_comments{
+    position: absolute;
+    bottom: 350px;
+    left: 40%;
+    font-size: 10px;
+    color: white;
+}
 .header-image-comments{
     color: white;
     position: absolute;
@@ -33,9 +40,18 @@ a{
     left: 35%;
     font-size: 70px;
 }   
-.header-image-button{
+.header_image_button{
     position: absolute;
-    
+    bottom: 150px;
+    left: 40%;
+
+}
+.header-image-button{
+    background-color: orange;
+    color: white;
+    width: 160px;
+    height: 55px;
+    border: orange;
 }
 .about{
     display: flex;
