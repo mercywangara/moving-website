@@ -290,3 +290,38 @@ hr{
 .footer-copyright{
     text-align: center;
 }
+      /* responsiveness */
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+body{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+/* .container{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+} */
+img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+p{
+    font-size: 1rem;
+}
+@media(max-width:600px){
+    p{
+        font-size: 1rem;
+    }
+}
+button{
+    cursor: pointer;
+}
+
